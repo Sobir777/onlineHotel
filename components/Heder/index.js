@@ -6,7 +6,7 @@ import cls from './Heder.module.scss'
 import { Logotive, Menu } from '../svg'
 
 
-export default function Header() {
+export default function Header() {  
 
     return (
         <>
@@ -23,7 +23,7 @@ export default function Header() {
                         <a>Location</a>
                         <a>Contact</a>
                     </div>
-                    <Menu ></Menu>
+                    <Menu className={cls.loggo}></Menu>
                     <button>Sign In</button>
                 </div>
             </div>
