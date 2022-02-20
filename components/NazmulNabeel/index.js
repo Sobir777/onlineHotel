@@ -21,19 +21,19 @@ export default function FinestLuxury() {
 
             <div className={cls.container}>
                 <div className={cls.img}>
-                    <Image src={img} ></Image>
+                    <Image src={img} alt="aaa"  ></Image>
                 </div>
                 <div className={cls.description}>
                     <div className={cls.titlee}>
                         <div>
-                            <Image src={imgLogo} ></Image>
+                            <Image src={imgLogo} alt="aaa" ></Image>
                         </div>
                         <div>
 
                         <p className={cls.titleLogo}>Nazmul Nabeel</p>
                         </div>
                     </div>
-                    <p className={cls.descriptionn}>“Lorem Ipsum is simply dummy text of <br></br> the printing and typesetting industry.  <br></br> Lorem Ipsum has been the industry's   <br></br> standard dummy text ever since the ”</p>
+                    <p className={cls.descriptionn}>“Lorem Ipsum is simply dummy text of <br></br> the printing and typesetting industry.  <br></br> Lorem Ipsum has been the industrys   <br></br> standard dummy text ever since the ”</p>
                 </div>
 
 

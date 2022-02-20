@@ -29,7 +29,7 @@ export default function Best() {
 
             <div className={cls.container}>
                 <div className={cls.cards}>
-                    <div><Image src={imgb}></Image></div>
+                    <div><Image src={imgb} alt="aaa" ></Image></div>
                     <div className={cls.descriptions}>
                         <p className={cls.titleLogoo}>Swimming pool and beach of luxury...</p>
                         <p className={cls.descriptionLogo}>Lorem Ipsum is simply dummy text of the printing <br></br> and typesetting industry.</p>
@@ -42,7 +42,7 @@ export default function Best() {
                     </div>
                 </div>
                 <div className={cls.cards}>
-                    <div><Image src={imga}></Image></div>
+                    <div><Image src={imga } alt="aaa" ></Image></div>
                     <div className={cls.descriptions}>
                         <p className={cls.titleLogoo}>Swimming pool and beach of luxury...</p>
                         <p className={cls.descriptionLogo}>Lorem Ipsum is simply dummy text of the printing <br></br> and typesetting industry.</p>
@@ -55,7 +55,7 @@ export default function Best() {
                     </div>
                 </div>
                 <div className={cls.cards}>
-                    <div><Image src={img}></Image></div>
+                    <div><Image src={img} alt="aaa" ></Image></div>
                     <div className={cls.descriptions}>
                         <p className={cls.titleLogoo}>Swimming pool and beach of luxury...</p>
                         <p className={cls.descriptionLogo}>Lorem Ipsum is simply dummy text of the printing <br></br> and typesetting industry.</p>

@@ -34,12 +34,12 @@ export default function Header() {
                 </div>
                 <div className={cls.imgs}>
                     <div className={cls.imgg}>
-                        <Image src={imgThreee}  ></Image>
+                        <Image src={imgThreee} alt="aaa" ></Image>
                         <p>Wagstaffe NSW, Australia</p>
                     </div>
                     <div className={cls.imggSecond}>
-                        <div><Image src={img}  ></Image></div>
-                        <div><Image src={imgTwo} ></Image></div>
+                        <div><Image src={img} alt="aaa"  ></Image></div>
+                        <div><Image src={imgTwo} alt="aaa" ></Image></div>
                         
                     </div>
                 </div>
