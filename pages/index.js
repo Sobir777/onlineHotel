@@ -6,24 +6,16 @@ import Nazamul from '../components/NazmulNabeel/index.js';
 import Best from '../components/Best/index.js';
 import Subscribe from '../components/Subscribe/index.js';
 
-
-
 export default function Home() {
   return (
     <>
       <div>
-
         <First></First>
         <Cards></Cards>
         <FinestLuxury></FinestLuxury>
         <Nazamul></Nazamul>
         <Best></Best>
         <Subscribe></Subscribe>
-
-
-
-
-
       </div>
     </>
   )
