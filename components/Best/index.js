@@ -64,7 +64,6 @@ export default function Best() {
                                 <span className={cls.forColor}>$250</span><span > /NIGHT</span>
                             </div>
                             <button className={cls.button}>Details</button>
-                            <button className={cls.button}>Details</button>
                         </div>
                     </div>
                 </div>
