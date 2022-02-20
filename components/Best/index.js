@@ -41,6 +41,12 @@ export default function Best() {
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+                
                 <div className={cls.cards}>
                     <div><Image src={imga } alt="aaa" ></Image></div>
                     <div className={cls.descriptions}>

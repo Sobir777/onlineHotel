@@ -1,13 +1,12 @@
 {
-  "homepage": "https://Sobir777.github.io/onlineHotel",
-  "name": "onlineHotel",
+
+  "name": "hotel",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start",  
     "lint": "next lint"
   },
   "dependencies": {
