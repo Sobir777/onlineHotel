@@ -1,0 +1,167 @@
+.container{
+    max-width:1200px ;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    margin-top: 120px;
+    .logo{
+
+        div{
+            max-width: 580px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: -10px;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                .titleDescription{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 30px;
+                    line-height: 46px;
+                    color: #222222;
+                    margin-bottom: -10px;
+                }
+                .descriptionlogo{
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #222222;
+                }
+            }
+        }
+        .button{
+            width: 167px;
+            height: 56px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            background: #3771C8;
+            border-radius: 8px;
+            border: none;
+        }
+        .logoTitle{
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 50px;
+            color: #222222;
+        }
+        .logoDescription{
+            max-width: 586px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: #555555;
+            margin-top: -20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .container{
+        padding-left: 10px;
+        .logo{
+            .logoTitle{
+                margin-top: -10px;
+            }
+            div{
+                padding-right: 10px;
+            }
+
+        }
+    }
+  }
+@media screen and (max-width: 1000px) {
+    .container{
+        display: flex;
+        gap: 20px;
+
+        .logo{
+            .logoTitle{
+                font-size: 34px;
+                line-height: 40px;
+            }
+            div{
+                padding-right: 10px;
+                div{
+                    .titleDescription{
+                        font-size: 24px;
+                        line-height: 40px;
+                    }
+                    .descriptionlogo{
+                        font-size: 14px;
+                        line-height: 26px;
+                    }
+                }
+            }
+            .logoDescription{
+                font-size: 12px;
+                line-height: 24px;
+                padding-right: 10px;
+            }
+            .button{
+                width: 140px;
+                height: 40px;
+            }
+        }
+    }
+  }
+@media screen and (max-width: 700px) {
+    .container{ 
+        .logo{
+            .logoTitle{
+                font-size: 28px;
+                line-height: 36px;
+            }
+            div{
+                padding-right: 10px;
+                div{
+                    .titleDescription{
+                        font-size: 20px;
+                        line-height: 36px;
+                    }
+                    .descriptionlogo{
+                        font-size: 10px;
+                        line-height: 20px;
+                    }
+                }
+            }
+            .logoDescription{
+                font-size: 11px;
+                line-height: 22px;
+                padding-right: 10px;
+            }
+            .button{
+                width: 140px;
+                height: 40px;
+            }
+        }
+    }
+  }
+@media screen and (max-width: 604px) {
+    .container{ 
+        display: flex;
+        flex-direction: column;
+        padding-right: 10px;
+
+        .logo{
+            .logoTitle{
+                font-size: 24px;
+                line-height: 36px;
+            }
+        }
+    }
+  }
