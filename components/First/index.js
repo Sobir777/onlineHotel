@@ -38,8 +38,8 @@ export default function Header() {
                         <p>Wagstaffe NSW, Australia</p>
                     </div>
                     <div className={cls.imggSecond}>
-                        <div><Image src={img} alt="aaa"  ></Image></div>
-                        <div><Image src={imgTwo} alt="aaa" ></Image></div>
+                        <div><Image src={img} alt="aaaashu"  ></Image></div>
+                        <div><Image src={imgTwo} alt="aaaashu" ></Image></div>
                         
                     </div>
                 </div>
