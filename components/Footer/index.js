@@ -1,5 +1,7 @@
 import React from 'react'
 import cls from './Footer.module.scss';
+import Image from 'next/image';
+import instagram from '../../public/instagram.png'
 import { Instagram, Google, Logotip, FaceBook } from '../svg';
 
 
@@ -14,7 +16,7 @@ export default function Footer() {
                     <p>Lorem Ipsum is simply dummy text <br></br> of the printing and typesetting <br></br> industry.</p>
                     <div className={cls.logoSvg}>
                         <Google></Google>
-                        <Instagram></Instagram>
+                        <Image  src={instagram} alt="insta"  >            </Image>
                         <FaceBook></FaceBook>
                     </div>
                 </div>
