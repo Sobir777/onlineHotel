@@ -7,9 +7,9 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1200px;    
   margin: auto;
-  display: flex;
+  display: flex;  
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -52,4 +52,142 @@
       margin-top: -20px;
     }
   }
+  .img{
+    .imgimg{
+      border-radius: 10px;
+    }
+  }
 }
+
+@media screen and (max-width: 1250px) {
+  .title{
+    
+  }
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+}
+@media screen and (max-width: 1080px) {
+  .container{
+    .description{
+        .descriptionn{
+          font-size: 20px;
+          line-height: 22px;
+
+        }
+    }
+  }
+}
+@media screen and (max-width: 890px) {
+  .container{
+    .description{
+        .titlee{
+          div {
+            .titleLogo {
+              margin-top: -10px;
+            }
+          }
+        }
+        .descriptionn{
+          font-size: 18px;
+          line-height: 18px;
+
+        }
+    }
+  }
+}
+@media screen and (max-width: 760px) {
+  .container{
+    .description{
+      .titlee{
+          margin-top: -20px;
+          div {
+            .titleLogo {
+              margin-top: -10px;
+            }
+          }
+        }
+        .descriptionn{
+          font-size: 16px;
+          line-height: 16px;
+
+        }
+    }
+  }
+  
+}
+@media screen and (max-width: 670px) {
+  .container{ 
+
+    display: flex;
+    flex-wrap: wrap;
+      .img{
+        
+      max-width: 550px;
+      }
+    .description{
+      max-width: 550px;
+      margin-left: 1px;
+      .descriptionn {
+        font-weight: 200;
+        font-size: 26px;
+        line-height: 30px;
+      }
+    }
+  }
+  
+}
+@media screen and (max-width: 670px) {
+  .container{ 
+
+    .description{
+      .descriptionn {
+        font-size: 22px;
+        line-height: 22px;
+      }
+    }
+  }
+  
+}
+@media screen and (max-width: 550px) {
+  .container{ 
+
+
+    .description{
+      .descriptionn {
+        font-size: 18px;
+        line-height: 16px;
+      }
+    }
+  }
+  
+}
+@media screen and (max-width: 390px) {
+  .container{ 
+    padding-left: 30px;
+    padding-right: 30px;
+    .description{
+      .descriptionn {
+        font-size: 14px;
+      }
+    }
+  }
+  
+}
+ 
+
+
+
+
+
+
+
+// @media screen and (max-width: 650px) {
+
+// }
+
+// @media screen and (max-width: 650px) {
+
+// }

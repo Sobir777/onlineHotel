@@ -6,8 +6,7 @@ import cls from './Subscribe.module.scss'
 export default function Subscribe () {
 
     return (
-        <>
-
+        <>  
             <div className={cls.container}>
                 <div className={cls.titlee}>
                     <h1 className={cls.logo}>Subscribe for our mailing list to get <br></br> latest updates and offers</h1>
@@ -20,10 +19,7 @@ export default function Subscribe () {
                 <div>
                     <Image src={img} alt="aaa" ></Image>
                 </div>
-
-
             </div>
         </>
     )
-
 }

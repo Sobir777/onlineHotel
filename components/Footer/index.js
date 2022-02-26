@@ -39,7 +39,6 @@ export default function Footer() {
                     <p>iOS app</p>
                     <p>Android app</p>
                 </div>
-
             </div>
 
         </>

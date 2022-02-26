@@ -1,152 +1,442 @@
-.titleLogo{
-    max-width: 1200px;
-    margin: auto;
-    
+.titleLogo {
+  max-width: 1200px;
+  margin: auto;
 
+  .titleee {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    margin-top: -35px;
+  }
+  .buttonswithlogo {
+    display: flex;
+    justify-content: space-between;
 
-    .titleee{
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 60px;
-        color: #000000;        
+    .buttons {
+      display: flex;
+      gap: 40px;
+      button {
+        width: 100px;
+        height: 40px;
+        background: #ffffff;
+        border: 1px solid #e8e8e8;
+        box-sizing: border-box;
+        border-radius: 8px;
+      }
+      button:hover {
+        background: #ffffff;
+        border: 1px solid #222222;
+        box-sizing: border-box;
+        border-radius: 8px;
+        transition: 1s;
+      }
     }
-    .description{
+    .view {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .text {
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 28px;
-        color: #555555;
-        margin-top: -35px;
+        color: #3771c8;
+        margin-bottom: -10px;
+        margin-top: -6px;
+      }
+      .line {
+        width: 109px;
+        height: 6px;
+        border: 1px solid #f9d15c;
+        box-sizing: border-box;
+        border-radius: 280px;
+      }
     }
-    .buttonswithlogo{
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  .cards {
+    width: 390px;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    border-radius: 16px;
+    .descriptions {
+      padding-left: 20px;
+
+      .titleLogoo {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #222222;
+        margin-bottom: -10px;
+      }
+      .descriptionLogo {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #555555;
+      }
+      .buttonCost {
         display: flex;
         justify-content: space-between;
-
-        .buttons{
-            display: flex;
-            gap: 40px;
-            button{
-                width:100px ;
-                height: 40px;
-                background: #FFFFFF;
-                border: 1px solid #E8E8E8;
-                box-sizing: border-box;
-                border-radius: 8px;
-            }
-            button:hover{
-                background: #FFFFFF;
-                border: 1px solid #222222;
-                box-sizing: border-box;
-                border-radius: 8px;
-                transition: 1s;
-            }
+        padding-right: 20px;
+        padding-bottom: 25px;
+        .cost {
+          .forColor {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 24px;
+            color: #3771c8;
+          }
+          span {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 24px;
+          }
         }
-        .view{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .button {
+          width: 77px;
+          height: 30px;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          color: #ffffff;
+          background: #3771c8;
+          border-radius: 4px;
+          border: none;
+        }
+      }
+    }
+  }
+}
 
-            .text{
-                font-family: Open Sans;
-                font-style: normal;
-                font-weight: normal;
+@media screen and (max-width: 1250px) {
+  .titleLogo {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .cards {
+      width: 340px;
+    }
+  }
+}
+@media screen and (max-width: 1085px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    .cards {
+      width: 300px;
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .titleLogo {
+    .buttonswithlogo {
+      .buttons {
+        gap: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 845px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    .cards {
+      width: 300px;
+      .descriptions {
+        .titleLogoo {
+          font-size: 18px;
+        }
+        .descriptionLogo {
+          font-size: 12px;
+          line-height: 20px;
+        }
+
+        .buttonCost {
+          margin-bottom: -10px;
+          .cost {
+            span {
+              font-size: 18px;
+            }
+            .forColor {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .titleLogo {
+    .buttonswithlogo {
+      .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 745px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    .cards {
+      width: 300px;
+      .descriptions {
+        padding-left: 10px;
+
+        .titleLogoo {
+          font-size: 18px;
+          margin-right: 20px;
+        }
+        .descriptionLogo {
+          font-size: 12px;
+          line-height: 20px;
+          margin-right: 20px;
+        }
+
+        .buttonCost {
+          margin-bottom: -10px;
+          .cost {
+            span {
+              font-size: 14px;
+            }
+            .forColor {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 645px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .cards {
+      width: 240px;
+
+      .descriptions {
+        padding-left: 10px;
+
+        .titleLogoo {
+          font-size: 18px;
+          margin-right: 20px;
+        }
+        .descriptionLogo {
+          font-size: 12px;
+          line-height: 20px;
+          margin-right: 20px;
+        }
+
+        .buttonCost {
+          margin-bottom: -10px;
+          .cost {
+            span {
+              font-size: 14px;
+            }
+            .forColor {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 545px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .cards {
+      width: 220px;
+
+      .descriptions {
+        padding-left: 10px;
+
+        .titleLogoo {
+          font-size: 18px;
+          margin-right: 20px;
+        }
+        .descriptionLogo {
+          font-size: 12px;
+          line-height: 20px;
+          margin-right: 20px;
+        }
+
+        .buttonCost {
+          margin-bottom: -10px;
+          .cost {
+            span {
+              font-size: 14px;
+            }
+            .forColor {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .titleLogo {
+    .titleee {
+      font-size: 30px;
+      line-height: 50px;
+    }
+    .description {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    .buttonswithlogo {
+      display: flex;
+      flex-direction: column-reverse;
+
+      .buttons {
+        justify-content: center;
+      }
+    }
+  }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .cards {
+      width: 190px;
+
+      .descriptions {
+        padding-left: 10px;
+
+        .titleLogoo {
+          font-size: 18px;
+          margin-right: 20px;
+        }
+        .descriptionLogo {
+          font-size: 12px;
+          line-height: 20px;
+          margin-right: 20px;
+        }
+
+        .buttonCost {
+          margin-bottom: -10px;
+          .cost {
+            span {
+              font-size: 13px;
+            }
+            .forColor {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 390px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -40px;
+    .cards {
+        width: 300px;
+  
+        .descriptions {
+          padding-left: 10px;
+  
+          .titleLogoo {
+            font-size: 18px;
+            margin-right: 20px;
+          }
+          .descriptionLogo {
+            font-size: 12px;
+            line-height: 20px;
+            margin-right: 20px;
+          }
+  
+          .buttonCost {
+            margin-bottom: -10px;
+            .cost {
+              span {
                 font-size: 16px;
-                line-height: 28px;
-                color: #3771C8;
-                margin-bottom: -10px;
-                margin-top: -6px;
+              }
+              .forColor {
+                font-size: 16px;
+              }
             }
-            .line{
-                width: 109px;
-                height: 6px;
-                border: 1px solid #F9D15C;
-                box-sizing: border-box;
-                border-radius: 280px;
-            }
+          }
         }
-    }
+      }
+  }
 }
-
-.container{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-
-    .cards{
-        width:390px;
-        border: 1px solid #E8E8E8;
-        box-sizing: border-box;
-        border-radius: 16px;
-
-
-
-        .descriptions{
-            padding-left: 20px;
-
-            .titleLogoo{
-                font-family: Open Sans;
-                font-style: normal;
-                font-weight: 600;
-                font-size: 20px;
-                line-height: 30px;
-                color: #222222;
-                margin-bottom: -10px;
-                
-
-            }
-            .descriptionLogo{
-                font-family: Open Sans;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 24px;
-                color: #555555;
-            }
-            .buttonCost{
-                display: flex;
-                justify-content: space-between;
-                padding-right: 20px;
-                padding-bottom: 25px;
-                .cost{
-                    .forColor{
-                        font-family: Open Sans;
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 24px;
-                        line-height: 24px;
-                        color: #3771C8;
-                    }
-                    span{
-                        font-family: Open Sans;
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 24px;
-                        line-height: 24px;
-
-                    }
-                }
-                .button{
-                    width: 77px;
-                    height: 30px;
-                    font-family: Open Sans;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 20px;
-                    color: #FFFFFF;
-                    background: #3771C8;
-                    border-radius: 4px;
-                    border: none;
-                }
-            }
-        }    
+@media screen and (max-width: 350px) {
+  .titleLogo {
+    padding-left: 30px;
+    padding-right: 30px;
+    .titleee {
+      font-size: 26px;
+      line-height: 45px;
     }
+    .buttonswithlogo {
+      .buttons {
+        gap: 10px;
+      }
+    }
+  }
 }
-
-
-
