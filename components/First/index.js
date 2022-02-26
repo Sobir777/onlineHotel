@@ -1,8 +1,8 @@
 import React from 'react'
 // import Link from 'next/link'
 import Image from 'next/image'
-import img from "../../public/Image (1).png";
-import imgTwo from "../../public/Image (2).png";
+import img from "../../public/Imageeaa.png";
+import imgTwo from "../../public/Imageeaaa.png";
 import imgThreee from "../../public/Image.png";
 import cls from './First.module.scss'
 import { Search } from '../svg'

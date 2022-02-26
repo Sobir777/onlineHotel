@@ -1,6 +1,6 @@
 import react from 'react'
 import Image from 'next/image'
-import imgLogo from '../../public/Rectangle 846.png'
+import imgLogo from '../../public/Rectangleqqqa.png'
 import img from '../../public/Imageqq.png'
 
 import cls from './Nazmul.module.scss'
@@ -14,7 +14,7 @@ export default function FinestLuxury() {
             <div className={cls.title}>
                 <Hotels></Hotels>
                 <Hayyat></Hayyat>
-                <Park></Park>
+                <Park></Park>   
                 <Cushman></Cushman>
                 <Hilton></Hilton>
             </div>
