@@ -59,7 +59,6 @@ $justify-content: space-between;
       margin-left: 29px;
     }
   }
-
 }
 
 @media screen and (max-width: 1250px) {
@@ -71,7 +70,7 @@ $justify-content: space-between;
 @media screen and (max-width: 860px) {
   .container {
     .navigation {
-      div {
+      .text {
         display: none;
       }
     }
